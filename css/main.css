@@ -11,3 +11,26 @@ body {
     margin-bottom: 1em;
     border-radius: 5px;
 }
+
+nav {
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    padding-left: 1rem;
+}
+
+header a:link,
+header a:visited {
+    text-decoration: none;
+    color: #0061AF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+header a:hover,
+header a:focus {
+    background-color: #FFA500;
+}
